@@ -1,0 +1,4 @@
+body {
+    background: linear-gradient(135deg, #ffff00, #007bff);
+    background-attachment: fixed; /* Если вы хотите зафиксировать фон */
+}

@@ -1,0 +1,48 @@
+.container {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: rgb(221, 234, 238);
+    border: 1px solid rgba(0,0,0,0.1); 
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-title {
+    text-align: center;
+    color: #4d4d5c;
+
+}
+.currency {
+    margin: 0 auto;
+}
+.currency-value {
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    color: #888;
+}
+.currency-option-name {
+    margin-left: 10px;
+}
+.currency-name {
+    margin-left: 10px;
+    width: 50px;
+}
+.option {
+    margin-left: 10px;
+}
+.main {
+    margin-bottom: 35px;
+    text-align: -webkit-center;
+}

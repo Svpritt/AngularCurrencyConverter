@@ -1,0 +1,32 @@
+
+<div class="container">
+    <h1 class="main-title">Currency Converter</h1>
+
+    <div class="currency main">
+
+        <input class="currency-value" id="main-input" type="number" [(ngModel)]="mainInputValue" (input)="exchangeCalculateMain()">
+        <select class="currency-option-name "  [(ngModel)]="mainSelectValue" (ngModelChange)="onMainCurrencyChange($event)">
+            <!-- не захотів я робити структурні дерективи , взагалі була думка що можна відмовитись 
+                і від ngModelChange але то все дового обмислювати (не писати), і ТЗ виконано -->
+            <option value="UAH">UAH</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="PLN">PLN</option>
+            <option value="TRY">TRY</option>
+            <option value="AED">AED</option>
+        </select>
+    </div>
+    <div class="currency main">
+        <input class="currency-value" id="second-input" type="number" [(ngModel)]="secondInputValue" (input)="exchangeCalculateSecond()">
+        <select class="currency-option-name" [(ngModel)]="secondSelectValue" (ngModelChange)="onSecondCurrencyChange($event)">
+            <option value="UAH">UAH</option>
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="PLN">PLN</option>
+            <option value="TRY">TRY</option>
+            <option value="AED">AED</option>
+        </select>
+    </div>
+
+
+</div>
